@@ -1,0 +1,763 @@
+
+ 
+ 
+ /*-- Blog Page Starts Here ---*/
+.blog-content{
+	width:48%;
+	float:left;
+	margin-right:3%;
+}
+.blog-sidebar{
+	width:29%;
+	padding:0 1em;
+	float:left;
+}
+.blog-post{
+	margin:1.5em 0 2em;
+	padding:10px;	
+}
+.header{
+
+	}
+	
+.blog-post h3, .blog-post h3 a{
+	font-size:1.2em;
+	text-transform:uppercase;
+	color:#3c3a3e;
+	font-weight:700;
+	margin:0;
+}
+.post-details{
+	margin:0.5em 0;
+}
+.post-details p{
+	font-size:1em;
+	color:#3c3a3e
+	font-weight:100;
+}
+.post-details p a{
+	font-weight:500;
+	color:#4fbfa8
+}
+.post-details p span{
+	color:#4fbfa8
+}
+.blog-post img{
+	width:100%;
+	margin:0.5em 0;
+}
+.blog-post h4{
+	font-size: 1em;
+	color:#3c3a3e;
+	font-weight:500;
+	text-transform:uppercase;
+	margin:0.5em 0;
+	line-height:1.6em;
+}
+.blog-post p{
+	font-size:0.875em;
+	color:#3c3a3e;
+	font-weight:100;
+	line-height:1.6em;
+	margin:0.5em 0;
+}
+.blog-post nav a{
+	font-size:1em;
+	color:#000;
+	font-weight:500;
+	padding-bottom:0;
+}
+ul.product-categories{
+	margin:0 0 2em;
+	padding: 0;
+	list-style-type: none;
+}
+ul.product-categories li {
+	padding: 5px 0;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+ul.product-categories li a:hover{
+	text-decoration:none;
+	color:#E23535;
+}
+.catactive{
+	text-decoration:none;
+	color:#E23535! important;
+}
+.product-categories li span.count {
+	float: right;
+	margin-left: 6px;
+	color: #aaa;
+	font-size:0.8125em;
+}
+ul.product-categories li  a {
+	-webkit-transition: background 350ms ease-in-out,border-color 350ms ease-in-out,color 150ms ease-in-out;
+	-moz-transition: background 350ms ease-in-out,border-color 350ms ease-in-out,color 150ms ease-in-out;
+	-ms-transition: background 350ms ease-in-out,border-color 350ms ease-in-out,color 150ms ease-in-out;
+	-o-transition: background 350ms ease-in-out,border-color 350ms ease-in-out,color 150ms ease-in-out;
+	transition: background 350ms ease-in-out,border-color 350ms ease-in-out,color 150ms ease-in-out;
+	font-size: 12px;
+	color: #999;
+}
+
+.blog-sidebar h3{
+	padding:0;
+}
+.subscribe{
+	margin:1em 0;
+}
+.subscribe h4{
+	font-size:1em;
+	color:#3c3a3e;
+	font-weight:500;
+	text-transform:uppercase;
+	margin:0 0 0.5em;
+}
+.subscribe input[type="text"]{
+	width:100%;
+	border:1px solid #3c3a3e;
+	padding:10px;
+	margin:1em 0;
+	outline:none;
+	-webkit-appearance: none;
+}
+.subscribe input[type="submit"]{
+	background:#ff7105;
+	padding:10px 15px;
+	color:#fff;
+	text-transform:uppercase;
+	outline:none;
+	-webkit-appearance: none;
+	border:0;
+	font-size:0.8em;
+}
+.subscribe input[type="submit"]:hover{
+	background:#4fbfa8;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-moz-transition:0.5s all;
+	
+}
+ul.tags_links{
+	padding:0;
+	list-style:none;
+	width:100%;
+}
+ul.tags_links li {
+	display: inline-block;
+	margin: 8px 3px;
+}
+ul.tags_links li a {
+	color:#fff;
+	font-size:0.8125em;
+	background: #1a1918;
+	padding: 5px 10px;
+}
+ul.tags_links li a:hover{
+	text-decoration:none;
+}
+ul.tags_links li a:hover{
+	background:#c5996c;
+	color:#fff;
+}
+/*-- Blog Page Ends Here ---*/
+
+.shadow
+{
+	-moz-box-shadow: 0px 7px 5px #888;
+	-webkit-box-shadow: 0px 7px 5px #888;
+	box-shadow: 0px 7px 5px #888;
+}
+
+.glow-azure2 {
+    //color: #3333FF;
+    //font-weight: bold;
+    //text-shadow: 1px 0px 1px #000;
+    background: url(../../images/backround7.gif) repeat scroll 0% 0% transparent;
+}
+ .glow-azure {
+    //color: #3333FF;
+    //font-weight: bold;
+    //text-shadow: 1px 0px 1px #000;
+    background: url(../../images/backround3.gif) repeat scroll 0% 0% transparent;
+}
+
+
+/*-- Media Queries Starts Here --*/
+@media(max-width:1024px){
+	#logo  {
+		width: 65%;
+	}
+	.navigation {
+		width: 76%;
+	position: relative;
+	z-index: 12;		
+	}
+	.header {
+		padding: 2em 0 1em;
+	}
+	ul.navig li a {
+		font-size: 0.875em;
+	}
+	ul.navig {
+		margin-top: 0px;
+	}
+	.banner {
+		min-height: 369px;
+	}
+	.news-grid-left h4 {
+		font-size: 8em;
+		margin: -16px 0 -10px;
+	}
+	.news-grid-right h4 {
+		font-size: 1.1em;
+	}
+	.news-grid-right p {
+		font-size: 0.875em;
+	}
+	.view, .view .mask, .view .content {
+		width: 235px;
+		height: 165px;
+	}
+	.view-first img {
+		width: 100%;
+	}
+	.about-details {
+		width: 50%;
+	}
+	.about-img
+	{
+	width: 30%;
+	}
+	.about-details h4 {
+		font-size: 1em;
+	}
+	.text input[type="text"]:nth-of-type(3) {
+		margin-right: 0;
+	}
+}
+
+@media(max-width:856px){
+	#logo  {
+		width: 50%;
+	}
+	span.menu{
+		width:32px;
+		height:32px;
+		background:url(../images/nav.png)no-repeat;
+		display: inline-block;
+		float:right;
+		cursor: pointer;
+	}
+	.navigation{
+		width:100%;
+		display: none;
+		text-align:center;
+		background:#fff;
+		padding:0.5em 0;
+		margin-top:10px;
+	}
+	ul.navig{
+		float:none;
+		width:100%;
+	}
+	ul.navig li{
+		display:block;
+	}
+	ul.navig li a{
+		color:#000;
+		display: block;
+	}
+	.search-bar {
+		width: 43%;
+		float:none;
+		margin:0 auto;
+	}
+	.header {
+		padding: 1em 0 1em;
+	}
+	.banner {
+		min-height: 341px;
+	}
+	.banner-bot h2 {
+		font-size: 3em;
+	}
+	.banner-bot {
+		padding: 2em 0;
+	}
+	.banner-bot p {
+		font-size: 0.875em;
+	}
+	.banner-bot a {
+		font-size: 1.5em;
+		padding: 4px 0;
+	}
+	.gallery h3 {
+		font-size: 3em;
+	}
+	.vid-coll img {
+		width: 57%;
+	}
+	.play-but {
+		top: 38%;
+		left: 26%;
+	}
+	.what-new h3 {
+		font-size: 3em;
+		margin: 0em 0 0.5em;
+	}
+	.news-grid-left h4 {
+		font-size: 3em;
+		margin: 0px 0 0px;
+	}
+	.news-grid-left small {
+		font-size: 0.8em;
+		padding-left: 0px;
+	}
+	.news-grid-right p {
+		font-size: 0.875em;
+		height: 39px;
+		overflow: hidden;
+	}
+	.side-bar {
+		display: none;
+	}
+	.main {
+		width: 100%;
+	}
+	.view{
+		width: 45%;
+		height: 209px
+	}
+	.view .mask, .view .content{
+	 	width: 100%;
+		height: 209px;
+	}
+	.view.view-first:nth-of-type(9) {
+		display: none;
+	}
+	.blog-content {
+		width: 100%;
+	}
+	.blog-sidebar {
+		width: 100%;
+	}
+	.fetures {
+		text-align: center;
+	}
+	.fetures img {
+		width: 43%;
+	}
+	.contact-box {
+		width: 100%;
+	}
+	.address-box {
+		width: 100%;
+	}
+	.dropdown-menu 
+	{
+	left:0;
+	right:0;
+	}	
+
+}
+@media(max-width:640px){
+	.about-top img {
+		width: 40%;
+	}
+	.about-details h4 {
+		font-size: 0.8em;
+		height: 20px;
+		overflow: hidden;
+	}
+	.about-details p{
+		height: 159px!important;
+		overflow: hidden;
+		font-size: 0.8em;
+	}
+	 .blog-content p:nth-of-type(3){
+	 	display: none;
+	 }
+	 .blog-content p{
+	 	height:90px;
+	 	overflow: hidden;
+	 }
+}
+@media(max-width:480px){
+	#logo {
+		width: 37%;
+	}
+	.header {
+		padding: 0.5em 0;
+	}
+	.search-bar {
+		width: 55%;
+	}
+	.banner {
+		min-height: 224px;
+	}
+	.banner-bot h2 {
+		font-size: 2em;
+	}
+	.banner-bot p {
+		font-size: 0.85em;
+		height: 50px;
+		overflow: hidden;
+	}
+	.banner-bot a {
+		font-size: 1.2em;
+		padding: 4px 0;
+	}
+	.banner-bot p:nth-of-type(2) {
+		font-size: 0.85em;
+		margin-bottom: 0.5em;
+	}
+	.gallery h3 {
+		font-size: 2em;
+	}
+	#filters li span {
+		padding: 6px 10px;
+		font-size: 0.8em;
+	}
+	.portfolio.app.mix_all {
+		width: 100%!important;
+	}
+	.portfolio.icon.mix_all {
+		width: 59%!important;
+		margin-right: 3%!important;
+	}
+	.portfolio.card.mix_all {
+		width: 37.5%!important;
+		margin-right: 0!important;
+	}
+	.portfolio.logos.mix_all {
+		width: 59%!important;
+	}
+	.video-serch {
+		padding: 2em 0;
+	}
+	.vid-col p {
+		font-size: 1em;
+	}
+	.vid-col p:nth-of-type(2) {
+		margin: 1em 0 0;
+		height: 69px;
+		overflow: hidden;
+	}
+	.what-new h3 {
+		font-size: 2em;
+	}
+	.blog-news-grid {
+		padding: 1em;
+	}
+	ul.social li i {
+		width: 32px;
+		height: 32px;
+		background-size: 300%;
+	}
+	ul.social li i.fb {
+		background-position: -32px 0px;
+	}
+	ul.social li i.fc {
+		background-position: -65px 0px;
+	}
+	.footer {
+		padding: 0em 0 1em;
+	}
+	.view , .view .mask, .view .content{
+		height: 141px;
+	}
+	.view-first:hover p {
+		display: none;
+	}
+	.mask h2{
+		margin-bottom:1em;
+	}
+	.blog-post h3, .blog-post h3 a {
+		font-size: 1em;
+		line-height: 1.6em;
+	}
+	h3.page-header {
+		font-size: 1.2em;
+		margin: 0.5em 0 0em;
+	}
+	.post-details {
+		margin: 0.5em 0;
+		height: 20px;
+	}
+	.blog-post h4 {
+		height: 20px;
+		overflow: hidden;
+	}
+	.blog-content p:nth-of-type(2){
+		display:none;
+	}
+	.about-details p {
+		height: 97px!important;
+	}
+	.games {
+		padding: 1em 0 2em;
+	}
+	.map iframe {
+		height: 157px;
+	}
+	.text input[type="text"] {
+		width: 100%;
+		margin-bottom: 3%;
+	}
+	.text {
+		margin: 0em 0 0;
+	}
+	.text textarea {
+		width: 100%;
+		height:170px;
+	}
+	.logo{
+		width: 70%;
+	}
+
+}
+@media(max-width:320px){
+	#logo {
+		width: 44%;
+	}
+	.logo {
+		left: 6%;
+	}
+	.search-bar {
+		width: 89%;
+	}
+	.banner {
+		min-height: 160px;
+	}
+	.banner-bot h2 {
+		font-size: 1.5em;
+	}
+	.gallery h3 {
+		font-size: 1.5em;
+	}
+	.news-grid-left h4 {
+		font-size: 2em;
+	}
+	.news-grid-right h4 {
+		font-size: 0.85em;
+	}
+	.blog-news-grid {
+		padding: 1em 0.5em;
+	}
+	.what-new h3 {
+		font-size: 1.5em;
+	}
+	.what-new {
+		padding: 2em 0 1em;
+	}
+	.view{
+		margin:5px;
+		border:0px;
+	}
+	.view, .view .mask, .view .content {
+		height: 88px;
+	}
+	.view h2 {
+		font-size: 13px;
+		padding: 7px;
+		margin: 8px 0 7px 0;
+	}
+	.blog-post h3, .blog-post h3 a {
+		font-size: 0.9em;
+		height: 21px;
+		overflow: hidden;
+	}
+	.post-details {
+		margin: 0.2em 0 1em;
+		height: 2px;
+	}
+
+
+}
+	.post-details  p .left{
+		margin-right: 0;
+	}
+	.post-details  p .right{
+		margin-right: 0;
+	}
+
+/*-- Media Queries Ends Here --*/
+@media (max-width: 1024px) and (min-width: 0px) {
+    .container {
+    width: 96%;
+    }
+}
+
+@media (max-width: 9999px) and (min-width: 1024px) {
+    .navigation {
+	position: relative;
+	z-index: 12;	
+    }
+}
+
+
+
+	/* Carousel base class */
+	.carousel {
+	  height: 600px;
+	  margin-bottom: 60px;
+	  margin-top:-40px;
+	}
+	/* Since positioning the image, we need to help out the caption */
+	.carousel-caption {
+	  z-index: 10;
+	}
+
+	/* Declare heights because of positioning of img element */
+	.carousel .item {
+	  height: 600px;
+	  background-color: #777;
+	}
+	.carousel-inner > .item > img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  min-width: 100%;
+	  height: 600px;
+	  z-index:1;
+	}
+
+@media (max-width: 1200px) and (min-width: 1165px) {	
+	.view {
+		margin: 5px !important;
+		width: 30% !important;
+		height: 217px !important;
+	}
+	.view .mask, .view .content{
+	 	width: 100%;
+		height: 100%;
+	}	
+	.view-first img {
+		width: 100%;
+		height: 100%;
+	}
+}	
+	
+	
+@media (max-width: 1165px) and (min-width: 1023px) {	
+	.view {
+		margin: 0px !important;
+		width: 31% !important;
+		height: 229px !important;
+	}
+	.view .mask, .view .content{
+	 	width: 100%;
+		height: 100%;
+	}	
+	.view-first img {
+		width: 100%;
+		height: 100%;
+	}
+}
+@media (max-width: 1023px) and (min-width: 856px) {
+
+	.view{
+		margin: 10px !important;
+		width: 45%;
+		height: 280px
+	}
+	.view .mask, .view .content{
+	 	width: 100%;
+		height: 280px;
+	}	
+}	
+@media (max-width: 856px) and (min-width: 834px) {
+
+	.view {
+		margin: 10px !important;
+		width: 45% !important;
+		height: 265px !important;
+	}
+	.view .mask, .view .content{
+	 	width: 100%;
+		height: 265px;
+	}	
+	.view-first img {
+		width: 100%;
+	}
+}
+@media (max-width: 834px) and (min-width: 768px) {
+
+	.view {
+		margin: 10px !important;
+		width: 44% !important;
+		height: 209px !important;
+	}
+	.view .mask, .view .content{
+	 	width: 100%;
+		height: 209px;
+	}	
+	.view-first img {
+		width: 100%;
+	}
+}
+@media (max-width: 768px) and (min-width: 0) {
+	.view {
+		margin: 10px !important;
+		width: 98% !important;
+		height: 205px !important;
+	}
+	.view .mask, .view .content{
+	 	width: 100%;
+		height: 205px;
+	}	
+	.view-first img {
+		width: 100%;
+	}
+}
+@media (max-width: 9999px) and (min-width: 1281px) {
+	/* Carousel base class */
+	.carousel {
+	  height: 800px;
+	  margin-bottom: 60px;
+	  margin-top:-40px;
+	}
+	/* Since positioning the image, we need to help out the caption */
+	.carousel-caption {
+	  z-index: 10;
+	}
+
+	/* Declare heights because of positioning of img element */
+	.carousel .item {
+	  height: 800px;
+	  background-color: #777;
+	}
+	.carousel-inner > .item > img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  min-width: 100%;
+	  height: 800px;
+	  z-index:1;
+	}
+}
+
+.h4
+{
+font-family: "Ubuntu",sans-serif;
+font-size: 1em !important;
+font-weight: 500;
+text-transform: uppercase;
+line-height: 1.6em;
+visibility: visible;
+}
+
+.h4 a {
+    color: #000;
+}
+
+.edit
+{
+margin:2px;
+padding:2px;
+border: 1px solid red;
+}
